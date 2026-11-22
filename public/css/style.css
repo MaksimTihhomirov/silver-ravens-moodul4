@@ -1470,3 +1470,19 @@ button {
         font-size: 14px;
     }
 }
+.hero-logo,
+.logo img,
+.footer-logo {
+    filter: brightness(1.6);
+}.form-success {
+    color: #86efac;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.form-error {
+    color: #fca5a5;
+    font-size: 13px;
+    margin-top: 6px;
+}

@@ -9,7 +9,7 @@
     <div class="breadcrumbs">
         <a href="{{ route('home') }}">Home</a> /
         <a href="{{ route('shop') }}">Shop</a> /
-        {{ $product->name }}
+        {{ \Illuminate\Support\Str::title(\Illuminate\Support\Str::after($product->name, 'SILVER RAVENS ')) }}
     </div>
 
     <section class="product-layout">

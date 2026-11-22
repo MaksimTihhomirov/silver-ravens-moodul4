@@ -68,10 +68,10 @@
 
         @forelse ($products as $product)
 
-            @php
-                $images = collect($product->images)->first();
-                $image = $images[0] ?? null;
-            @endphp
+       @php
+    $images = $product->images['Black'] ?? collect($product->images)->first();
+    $image = $images[0] ?? null;
+@endphp
 
             <a href="{{ route('product.show', $product->slug) }}"
                class="product-card">
