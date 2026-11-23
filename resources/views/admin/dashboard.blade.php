@@ -35,10 +35,14 @@
         </div>
 
     </section>
-    <div class="admin-actions">
+   <div class="admin-actions">
 
     <a href="{{ route('admin.products.index') }}" class="button">
         MANAGE PRODUCTS
+    </a>
+
+    <a href="{{ route('admin.messages') }}" class="button">
+        VIEW MESSAGES
     </a>
 
 </div>

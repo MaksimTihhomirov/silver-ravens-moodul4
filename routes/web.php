@@ -29,6 +29,9 @@ Route::view('/cart', 'cart')
 Route::get('/admin/login', [AuthController::class, 'showLogin'])
     ->name('login');
 
+    Route::get('/messages', [DashboardController::class, 'messages'])
+    ->name('admin.messages');
+
 Route::post('/admin/login', [AuthController::class, 'login'])
     ->middleware('throttle:5,1')
     ->name('admin.login.store');

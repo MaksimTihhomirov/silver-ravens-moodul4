@@ -18,4 +18,11 @@ class DashboardController extends Controller
             'messageCount'
         ));
     }
+
+    public function messages()
+    {
+        $messages = ContactMessage::latest()->get();
+
+        return view('admin.messages', compact('messages'));
+    }
 }
