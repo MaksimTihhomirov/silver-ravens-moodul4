@@ -1,0 +1,35 @@
+PROGRAMMEERIMISKEELE VALIK
+
+Projekti The Silver Ravens serveripoolse osa
+arendamiseks valisin PHP programmeerimiskeele
+ja Laraveli raamistiku. Andmebaasina kasutasin
+MySQLi.
+
+Valisin PHP, sest olin seda varasemalt õppinud
+ning see sobib hästi dünaamiliste veebilehtede
+ja e-poodide arendamiseks.
+
+Laravel võimaldab projekti paremini
+struktureerida ning lihtsustab andmebaasiga
+suhtlemist, kasutajate autentimist ja
+vormiandmete valideerimist.
+
+PHP ja Laraveli eelised:
+
+- Hea ühilduvus MySQL-i andmebaasiga.
+- Põhjalik dokumentatsioon.
+- Mugav andmebaasi haldamine.
+- Sisseehitatud autentimine ja valideerimine.
+- MVC arhitektuur.
+
+PHP ja Laraveli puudused:
+
+- Vajab serverikeskkonda.
+- Laravel nõuab rohkem ressursse kui tavaline PHP.
+- Raamistiku õppimine võtab aega.
+- Projekti käivitamiseks tuleb paigaldada
+  vajalikud sõltuvused.
+
+Valitud tehnoloogiad võimaldasid luua
+dünaamilise e-poe, administraatoripaneeli
+ning toimiva kontaktivormi.
